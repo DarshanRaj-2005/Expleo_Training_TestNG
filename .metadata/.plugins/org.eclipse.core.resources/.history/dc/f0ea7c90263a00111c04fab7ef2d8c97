@@ -1,0 +1,67 @@
+package org.expleo.SeleniumAndTesting;
+
+import org.testng.annotations.Test;
+import java.time.Duration;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+public class TestNG_Demo {
+	
+	public WebDriver driver;
+  @Test(priority=1) //it have a wrong selector.It will get fail
+  public void login() {
+	  driver.findElement(By.id("login")).click();
+	  driver.findElement(By.id("loginusername")).sendKeys("DarshanRaj");
+	  driver.findElement(By.id("loginpassword")).sendKeys("darshan123");
+	  driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
+  }
+ 
+  @Test(priority=2,dependsOnMethods="login") // it will be skipped because of depends on get fail
+  public void Invlaidlogin() {
+	  driver.findElement(By.id("login2")).click();
+	  driver.findElement(By.id("loginusername")).sendKeys("Darshan");
+	  driver.findElement(By.id("loginpassword")).sendKeys("darshan123");
+	  driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
+	  wait.until(ExpectedConditions.alertIsPresent());
+	  Alert alert = driver.switchTo().alert();
+	  alert.accept();
+  }
+  
+  @Test(priority=3) // it will pass 
+  public void Invalidlogin2() {
+	  driver.findElement(By.id("login2")).click();
+	  driver.findElement(By.id("loginusername")).sendKeys("DarshanRaj");
+	  driver.findElement(By.id("loginpassword")).sendKeys("darshan");
+	  driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
+	  wait.until(ExpectedConditions.alertIsPresent());
+	  Alert alert = driver.switchTo().alert();
+	  alert.accept();
+  }
+  
+  
+  @BeforeMethod
+  public void beforeMethod() {
+	  ChromeOptions options = new ChromeOptions();
+	  options.addArguments("--start-maximized");
+	  options.addArguments("--lang=ta");
+//	  options.addArguments("--headless");
+	  driver =  new ChromeDriver(options);
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+	  driver.get("https://demoblaze.com/");
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+	  driver.quit();
+  }
+
+}

@@ -1,109 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-16T15:49:25 IST" name="Default suite" finished-at="2026-04-16T15:49:25 IST" duration-ms="74">
+  <suite started-at="2026-04-17T16:22:12 IST" name="Default suite" finished-at="2026-04-17T16:22:26 IST" duration-ms="13899">
     <groups>
     </groups>
-    <test started-at="2026-04-16T15:49:25 IST" name="Default test" finished-at="2026-04-16T15:49:25 IST" duration-ms="74">
-      <class name="org.expleo.SeleniumAndTesting.TestAnnotationsExample">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="beforeSuite" finished-at="2026-04-16T15:49:25 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="beforeTest" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="beforeClass" finished-at="2026-04-16T15:49:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="beforeMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
+    <test started-at="2026-04-17T16:22:12 IST" name="Default test" finished-at="2026-04-17T16:22:26 IST" duration-ms="13899">
+      <class name="org.expleo.SeleniumAndTesting.SoftAssertDemo">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:12 IST" name="beforeMethod" finished-at="2026-04-17T16:22:15 IST" duration-ms="2464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="f" data-provider="dp" finished-at="2026-04-16T15:49:25 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Invalidlogin2()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:15 IST" name="Invalidlogin2" finished-at="2026-04-17T16:22:16 IST" duration-ms="1668" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="afterMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- Invalidlogin2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:16 IST" name="afterMethod" finished-at="2026-04-17T16:22:16 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="beforeMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:16 IST" name="beforeMethod" finished-at="2026-04-17T16:22:18 IST" duration-ms="1849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="f" data-provider="dp" finished-at="2026-04-16T15:49:25 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Invlaidlogin()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:18 IST" name="Invlaidlogin" finished-at="2026-04-17T16:22:20 IST" duration-ms="1489" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [User does not] but found [User does not exist.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [User does not] but found [User does not exist.]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at org.expleo.SeleniumAndTesting.SoftAssertDemo.Invlaidlogin(SoftAssertDemo.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="afterMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- Invlaidlogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:20 IST" name="afterMethod" finished-at="2026-04-17T16:22:20 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="loginTest" finished-at="2026-04-16T15:49:25 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="beforeMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:20 IST" name="beforeMethod" finished-at="2026-04-17T16:22:22 IST" duration-ms="1986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="afterMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
+        <test-method signature="login()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:22 IST" name="login" finished-at="2026-04-17T16:22:26 IST" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.SoftAssertDemo@712625fd]" started-at="2026-04-17T16:22:26 IST" name="afterMethod" finished-at="2026-04-17T16:22:26 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="beforeMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="logoutTest()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="logoutTest" finished-at="2026-04-16T15:49:25 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="afterMethod" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="afterClass" finished-at="2026-04-16T15:49:25 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="afterTest" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.expleo.SeleniumAndTesting.TestAnnotationsExample@45d84a20]" started-at="2026-04-16T15:49:25 IST" name="afterSuite" finished-at="2026-04-16T15:49:25 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- org.expleo.SeleniumAndTesting.TestAnnotationsExample -->
+      </class> <!-- org.expleo.SeleniumAndTesting.SoftAssertDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

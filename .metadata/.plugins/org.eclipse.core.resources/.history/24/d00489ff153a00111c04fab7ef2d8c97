@@ -1,0 +1,41 @@
+package org.expleo.SeleniumAndTesting;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterTest;
+
+public class TestNG_Demo {
+	
+	public WebDriver driver;
+  @Test
+  public void login() {
+	  driver.findElement(By.id("login2")).click();
+	  driver.findElement(By.id("loginusername")).sendKeys("DarshanRaj");
+	  driver.findElement(By.id("loginpassword")).sendKeys("darshan123");
+	  driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
+
+  }
+  @BeforeTest
+  public void beforeTest() {
+	  ChromeOptions options = new ChromeOptions();
+	  options.addArguments("--start-maximized");
+	  options.addArguments("--headless");
+	  driver =  new ChromeDriver(options);
+	  driver.get("https://demoblaze.com/");
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+  }
+
+  @AfterTest
+  public void afterTest() {
+	  driver.quit();
+  }
+
+}

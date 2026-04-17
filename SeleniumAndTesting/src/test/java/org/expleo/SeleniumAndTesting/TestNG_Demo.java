@@ -1,16 +1,20 @@
 package org.expleo.SeleniumAndTesting;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
+
+import junit.framework.Assert;
 
 import java.time.Duration;
-
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterTest;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 public class TestNG_Demo {
 	
@@ -19,22 +23,63 @@ public class TestNG_Demo {
   public void login() {
 	  driver.findElement(By.id("login2")).click();
 	  driver.findElement(By.id("loginusername")).sendKeys("DarshanRaj");
-	  driver.findElement(By.id("loginpassword")).sendKeys("darshan123");
+	  driver.findElement(By.id("loginpassword")).sendKeys("dharshan123");
 	  driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
-
+	  
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
+	  WebElement logout = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"logout2\"]")));
+	  String actual = logout.getText();
+	  String expected = "Log out";
+	  Assert.assertEquals(actual,expected);
+	  System.out.println("Login Successful");
   }
-  @BeforeTest
-  public void beforeTest() {
+  
+ 
+  @Test
+  public void Invlaidlogin() {
+	  driver.findElement(By.id("login2")).click();
+	  driver.findElement(By.id("loginusername")).sendKeys("djmnffbb");
+	  driver.findElement(By.id("loginpassword")).sendKeys("dharshan123");
+	  driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
+	  wait.until(ExpectedConditions.alertIsPresent());
+	  Alert alert = driver.switchTo().alert();
+	  String actual = alert.getText();
+	  String expected = "User does not exist.";
+	  Assert.assertEquals(actual, expected);
+	  System.out.println("Username Wrong");
+	  alert.accept();
+  }
+  
+  @Test
+  public void Invalidlogin2() {
+	  driver.findElement(By.id("login2")).click();
+	  driver.findElement(By.id("loginusername")).sendKeys("DarshanRaj");
+	  driver.findElement(By.id("loginpassword")).sendKeys("darshan");
+	  driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
+	  wait.until(ExpectedConditions.alertIsPresent());
+	  Alert alert = driver.switchTo().alert();
+	  String actual = alert.getText();
+	  String expected = "Wrong password.";
+	  Assert.assertEquals(actual, expected);
+	  System.out.println("Password Wrong");
+	  alert.accept();
+  }
+  
+  
+  @BeforeMethod
+  public void beforeMethod() {
 	  ChromeOptions options = new ChromeOptions();
 	  options.addArguments("--start-maximized");
-	  options.addArguments("--headless");
+//	  options.addArguments("--headless");
 	  driver =  new ChromeDriver(options);
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	  driver.get("https://demoblaze.com/");
-	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
   }
-
-  @AfterTest
-  public void afterTest() {
+  
+  @AfterMethod
+  public void afterMethod() {
 	  driver.quit();
   }
 

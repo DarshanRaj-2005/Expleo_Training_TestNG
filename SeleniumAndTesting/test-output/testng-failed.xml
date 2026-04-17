@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.expleo.SeleniumAndTesting.TestNG_Demo">
+      <class name="org.expleo.SeleniumAndTesting.SoftAssertDemo">
         <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="login"/>
+          <include name="beforeMethod"/>
+          <include name="Invlaidlogin"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- org.expleo.SeleniumAndTesting.TestNG_Demo -->
+      </class> <!-- org.expleo.SeleniumAndTesting.SoftAssertDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
