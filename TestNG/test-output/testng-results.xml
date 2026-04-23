@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-22T14:34:47 IST" name="Suite" finished-at="2026-04-22T14:35:02 IST" duration-ms="15038">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T14:34:47 IST" name="Test" finished-at="2026-04-22T14:35:02 IST" duration-ms="15038">
+      <class name="com.QaFoxDemo.QaFoxDemo">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:48 IST" name="beforeMethod" finished-at="2026-04-22T14:34:50 IST" duration-ms="2382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:48 IST" name="beforeMethod" finished-at="2026-04-22T14:34:50 IST" duration-ms="2461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:50 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-22T14:34:52 IST" duration-ms="1934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaggu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jagadeep12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:50 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-22T14:34:52 IST" duration-ms="2020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaggudeep@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaggu12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:52 IST" name="afterMethod" finished-at="2026-04-22T14:34:52 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:52 IST" name="afterMethod" finished-at="2026-04-22T14:34:52 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:52 IST" name="beforeMethod" finished-at="2026-04-22T14:34:54 IST" duration-ms="1407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidSearchKeyword(java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:54 IST" name="invalidSearchKeyword" finished-at="2026-04-22T14:34:55 IST" duration-ms="903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearchKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:55 IST" name="afterMethod" finished-at="2026-04-22T14:34:55 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:55 IST" name="beforeMethod" finished-at="2026-04-22T14:34:57 IST" duration-ms="1921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:57 IST" name="validLogin" data-provider="validData" finished-at="2026-04-22T14:34:59 IST" duration-ms="1819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaggudeep@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jagadeep12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:59 IST" name="afterMethod" finished-at="2026-04-22T14:34:59 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:34:59 IST" name="beforeMethod" finished-at="2026-04-22T14:35:01 IST" duration-ms="2108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validSearchKeyword(java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:35:01 IST" name="validSearchKeyword" finished-at="2026-04-22T14:35:02 IST" duration-ms="1013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearchKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QaFoxDemo.QaFoxDemo@13cf7d52]" started-at="2026-04-22T14:35:02 IST" name="afterMethod" finished-at="2026-04-22T14:35:02 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.QaFoxDemo.QaFoxDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

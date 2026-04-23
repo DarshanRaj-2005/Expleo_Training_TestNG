@@ -26,13 +26,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.expleo.SeleniumAndTesting"/>
+			<item value="org.expleo.TestNG"/>
 		</list>
 		<list key="groupId">
 			<item value="org.expleo"/>
 		</list>
 		<list key="artifactId">
-			<item value="SeleniumAndTesting"/>
+			<item value="TestNG"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

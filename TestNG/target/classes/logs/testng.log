@@ -1,0 +1,46 @@
+[INFO ] 2026-04-22 11:41:18 302 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 11:41:18 754 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 11:41:20 965 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 11:41:24 079 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-22 11:41:26 266 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-22 11:54:31 402 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 11:54:33 166 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 11:54:36 112 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 11:54:44 663 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-22 11:57:52 731 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 11:57:53 271 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 11:57:55 448 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 11:57:58 587 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-22 11:58:00 982 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-22 14:08:55 495 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:08:55 511 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:08:57 730 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 14:09:06 307 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-22 14:09:09 658 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-22 14:10:12 751 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:10:13 749 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:10:16 896 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 14:10:40 623 [main] QaFoxDemo - Expected condition failed: waiting for title to contain "My Account". Current title: "Account Login".
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\dhars\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60111}, goog:processID: 26868, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60111/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27edc91c93bfe56729da12a0063a7c32
+[INFO ] 2026-04-22 14:10:43 044 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-22 14:12:55 851 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:12:56 581 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:12:58 759 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 14:13:04 556 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-22 14:14:16 606 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-22 14:14:42 186 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:14:42 430 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:14:44 472 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 14:14:49 967 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-22 14:21:01 948 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-22 14:32:16 047 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-22 14:34:52 375 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:34:52 557 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-22 14:34:55 056 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-22 14:34:59 037 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-22 14:35:02 324 [main] QaFoxDemo - Search is valid

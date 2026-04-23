@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-22T14:20:53 IST" name="Failed suite [Suite]" finished-at="2026-04-22T14:21:02 IST" duration-ms="8297">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T14:20:53 IST" name="Test(failed)" finished-at="2026-04-22T14:21:02 IST" duration-ms="8297">
+      <class name="com.QaFoxDemo.QaFoxDemo">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@3e44f2a5]" started-at="2026-04-22T14:20:54 IST" name="beforeMethod" finished-at="2026-04-22T14:20:56 IST" duration-ms="2052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.QaFoxDemo.QaFoxDemo@3e44f2a5]" started-at="2026-04-22T14:20:56 IST" name="validLogin" data-provider="validData" finished-at="2026-04-22T14:21:01 IST" duration-ms="5630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaggudeep@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jagadeep12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QaFoxDemo.QaFoxDemo@3e44f2a5]" started-at="2026-04-22T14:21:01 IST" name="afterMethod" finished-at="2026-04-22T14:21:02 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.QaFoxDemo.QaFoxDemo -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

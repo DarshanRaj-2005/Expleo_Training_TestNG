@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="validKeyword" value="mac"/>
+    <parameter name="invalidKeyword" value="kiot"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/"/>
+    <classes>
+      <class name="com.QaFoxDemo.QaFoxDemo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="validLogin" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.QaFoxDemo.QaFoxDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
