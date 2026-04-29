@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-28T15:21:04 IST" name="Suite" finished-at="2026-04-28T15:21:32 IST" duration-ms="28078">
+    <groups>
+    </groups>
+    <test started-at="2026-04-28T15:21:04 IST" name="Test" finished-at="2026-04-28T15:21:32 IST" duration-ms="28078">
+      <class name="com.test.DashboardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.DashboardTest@327bcebd]" started-at="2026-04-28T15:21:04 IST" name="setup" finished-at="2026-04-28T15:21:12 IST" duration-ms="8317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.test.DashboardTest@327bcebd]" started-at="2026-04-28T15:21:12 IST" name="dashboardTest" finished-at="2026-04-28T15:21:25 IST" duration-ms="12626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.DashboardTest@327bcebd]" started-at="2026-04-28T15:21:25 IST" name="close" finished-at="2026-04-28T15:21:25 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.test.DashboardTest -->
+      <class name="com.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTest@1fb669c3]" started-at="2026-04-28T15:21:25 IST" name="setup" finished-at="2026-04-28T15:21:32 IST" duration-ms="6699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.test.LoginTest@1fb669c3]" started-at="2026-04-28T15:21:32 IST" name="loginTest" finished-at="2026-04-28T15:21:32 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.LoginTest@1fb669c3]" started-at="2026-04-28T15:21:32 IST" name="close" finished-at="2026-04-28T15:21:32 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

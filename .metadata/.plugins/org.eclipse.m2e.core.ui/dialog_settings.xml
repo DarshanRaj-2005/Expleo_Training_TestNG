@@ -14,7 +14,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -26,13 +26,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.expleo.TestNG"/>
+			<item value="com.expleo.DemoblazeWithoutPageFactory"/>
+			<item value="com.expleo.PomWithout"/>
+			<item value="com.expleo.PomWithoutPageFactory"/>
 		</list>
 		<list key="groupId">
-			<item value="org.expleo"/>
+			<item value="com.expleo"/>
 		</list>
 		<list key="artifactId">
-			<item value="TestNG"/>
+			<item value="DemoblazeWithoutPageFactory"/>
+			<item value="PomWithout"/>
+			<item value="PomWithoutPageFactory"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

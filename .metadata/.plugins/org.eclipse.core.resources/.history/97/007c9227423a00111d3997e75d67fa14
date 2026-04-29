@@ -1,9 +1,0 @@
-package org.expleo.SeleniumAndTesting;
-
-import org.testng.annotations.Test;
-
-public class testAssertions {
-  @Test
-  public void f() {
-  }
-}

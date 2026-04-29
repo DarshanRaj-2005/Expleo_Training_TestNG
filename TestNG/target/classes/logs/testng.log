@@ -44,3 +44,17 @@ Session ID: 27edc91c93bfe56729da12a0063a7c32
 [INFO ] 2026-04-22 14:34:55 056 [main] QaFoxDemo - Search is invalid
 [INFO ] 2026-04-22 14:34:59 037 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
 [INFO ] 2026-04-22 14:35:02 324 [main] QaFoxDemo - Search is valid
+[INFO ] 2026-04-28 11:03:41 411 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:03:42 770 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:03:45 149 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-28 11:07:27 818 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:07:28 228 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:07:30 603 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-28 11:07:34 815 [main] QaFoxDemo - jaggudeep@gmail.com Login Successful
+[INFO ] 2026-04-28 11:15:21 743 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:15:22 020 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:15:24 096 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-28 11:46:41 325 [TestNG-PoolService-1] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:46:41 597 [TestNG-PoolService-2] QaFoxDemo - Login not Successful
+[INFO ] 2026-04-28 11:46:43 820 [main] QaFoxDemo - Search is invalid
+[INFO ] 2026-04-28 11:46:50 044 [main] QaFoxDemo - Search is valid

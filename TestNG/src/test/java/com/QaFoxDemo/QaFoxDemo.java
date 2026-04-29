@@ -1,7 +1,5 @@
 package com.QaFoxDemo;
 
-import org.testng.annotations.Test;
-
 import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
@@ -18,9 +16,15 @@ import org.testng.annotations.*;
 
 import com.utils.UtilsExcel;
 
+@Listeners(ListenerQaFoxDemo.class)
 public class QaFoxDemo {
 
 	private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+	
+	public WebDriver getDriver() {
+	    return driver.get();
+	}
+	
 	public static Logger log = LogManager.getLogger(QaFoxDemo.class);
 
 	@Test(dataProvider = "validData", dataProviderClass = UtilsExcel.class)
@@ -42,11 +46,12 @@ public class QaFoxDemo {
 
 		wait.until(ExpectedConditions.titleContains("My Account"));
 
-		Assert.assertTrue(driver.get().getTitle().contains("My Account"));
+		Assert.assertTrue(driver.get().getTitle().contains("My Accounts"));
 		
 		log.info(email + " Login Successful");
 		}catch(Exception e) {
-			log.info(e.getMessage());
+		    log.error("Test failed due to: ", e);
+		    throw e;
 		}
 	}
 
