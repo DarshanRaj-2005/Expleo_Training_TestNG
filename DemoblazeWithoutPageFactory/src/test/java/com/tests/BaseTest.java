@@ -1,13 +1,16 @@
 package com.tests;
 
 import java.time.Duration;
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import com.pages.*;
 
@@ -18,12 +21,13 @@ public class BaseTest {
 	LoginPage objLoginpage;
 	HomePage objHomepage;
 	ProductPage objProductpage;
-
-	@BeforeClass
-	public void beforeClass() {
+	
+	@BeforeMethod
+	@Parameters({"browser","url"})
+	public void beforeMethod(String browser, String url) {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://demoblaze.com/");
+		driver.get(url);
 
 		new WebDriverWait(driver, Duration.ofSeconds(30))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.id("login2")));
@@ -33,9 +37,13 @@ public class BaseTest {
 		objProductpage = new ProductPage(driver);
 	}
 
-	@AfterClass
-	public void afterClass() {
+	@AfterMethod
+	public void afterMethod() {
 	  driver.quit();
+	}
+	
+	public WebDriver getDriver() {
+		return driver;
 	}
 
 }

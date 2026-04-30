@@ -2,14 +2,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="dharshan123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demoblaze.com/"/>
+    <parameter name="username" value="DarshanRaj"/>
     <classes>
-      <class name="com.tests.ProductPageTest">
+      <class name="com.tests.LoginPageTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="productpageTest"/>
-          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="validloginTest" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.tests.ProductPageTest -->
+      </class> <!-- com.tests.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
