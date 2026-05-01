@@ -23,7 +23,6 @@ public class LoginPageTest extends BaseTest {
 		String result = "Log out";
 
 		Assert.assertEquals(result, logout, "log in not success");
-		Assert.fail();
 
 		log.info("Log in Success ");
 	}

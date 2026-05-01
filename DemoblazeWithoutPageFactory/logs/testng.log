@@ -43,3 +43,19 @@
 [INFO ] 2026-04-29 19:18:44 842 [main] ListenerDemoblaze - Test Success homepageTest
 [INFO ] 2026-04-29 19:18:48 553 [main] ListenerDemoblaze - Test Started productpageTest
 [INFO ] 2026-04-29 19:18:56 357 [main] ListenerDemoblaze - Test Success productpageTest
+[INFO ] 2026-04-30 11:27:18 013 [TestNG-test-Test-2] ListenerDemoblaze - Test Started productpageTest
+[INFO ] 2026-04-30 11:27:18 082 [TestNG-test-Test-1] ListenerDemoblaze - Test Started homepageTest
+[INFO ] 2026-04-30 11:27:18 103 [TestNG-test-Test-4] ListenerDemoblaze - Test Started validLoginExcel
+[INFO ] 2026-04-30 11:27:18 112 [TestNG-test-Test-3] ListenerDemoblaze - Test Started validloginTest
+[INFO ] 2026-04-30 11:27:22 638 [TestNG-test-Test-3] LoginPageTest - Log in Success 
+[INFO ] 2026-04-30 11:27:22 651 [TestNG-test-Test-4] LoginPageTest - Excel Data log in success
+[INFO ] 2026-04-30 11:27:22 651 [TestNG-test-Test-3] ListenerDemoblaze - Test Success validloginTest
+[INFO ] 2026-04-30 11:27:22 657 [TestNG-test-Test-4] ListenerDemoblaze - Test Success validLoginExcel
+[INFO ] 2026-04-30 11:27:23 257 [TestNG-test-Test-5] ListenerDemoblaze - Test Started invalidLoginExcel
+[INFO ] 2026-04-30 11:27:24 121 [TestNG-test-Test-1] ListenerDemoblaze - Test Success homepageTest
+[INFO ] 2026-04-30 11:27:24 391 [TestNG-test-Test-5] LoginPageTest - Invalid Data log in not success
+[INFO ] 2026-04-30 11:27:24 393 [TestNG-test-Test-5] ListenerDemoblaze - Test Success invalidLoginExcel
+[INFO ] 2026-04-30 11:27:25 873 [TestNG-test-Test-2] ListenerDemoblaze - Test Success productpageTest
+[INFO ] 2026-04-30 11:27:28 660 [TestNG-test-Test-5] ListenerDemoblaze - Test Started invalidLoginExcel
+[INFO ] 2026-04-30 11:27:29 687 [TestNG-test-Test-5] LoginPageTest - Invalid Data log in not success
+[INFO ] 2026-04-30 11:27:29 691 [TestNG-test-Test-5] ListenerDemoblaze - Test Success invalidLoginExcel

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\dhars\Documents\SeleniumAndTesting\DemoblazeWithoutPageFactory\src\test\java\com\tests\BaseTest.java"/>
 			<item value="C:\Users\dhars\Documents\SeleniumAndTesting"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,17 +27,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.expleo.DemoblazeWithoutPageFactory"/>
-			<item value="com.expleo.PomWithout"/>
-			<item value="com.expleo.PomWithoutPageFactory"/>
 		</list>
 		<list key="groupId">
-			<item value="com.expleo"/>
 		</list>
 		<list key="artifactId">
-			<item value="DemoblazeWithoutPageFactory"/>
-			<item value="PomWithout"/>
-			<item value="PomWithoutPageFactory"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -52,10 +46,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.expleo"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="CucumberSetup"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

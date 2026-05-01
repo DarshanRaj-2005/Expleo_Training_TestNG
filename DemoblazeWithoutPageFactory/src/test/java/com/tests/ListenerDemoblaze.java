@@ -27,9 +27,7 @@ public class ListenerDemoblaze implements ITestListener{
 		
 		log.error("Failed Test: "+ result.getName());
 		
-		Object testclass = result.getInstance();
-		
-		WebDriver driver = ((BaseTest)testclass).getDriver();
+		WebDriver driver = BaseTest.getDriver();
 		
 		try {
 			long time = System.currentTimeMillis();

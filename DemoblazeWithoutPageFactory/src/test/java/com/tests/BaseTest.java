@@ -16,7 +16,7 @@ import com.pages.*;
 
 public class BaseTest {
 
-	WebDriver driver;
+	public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
 	LoginPage objLoginpage;
 	HomePage objHomepage;
@@ -25,25 +25,24 @@ public class BaseTest {
 	@BeforeMethod
 	@Parameters({"browser","url"})
 	public void beforeMethod(String browser, String url) {
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get(url);
+		driver.set(new ChromeDriver());
+		driver.get().manage().window().maximize();
+		driver.get().get(url);
 
-		new WebDriverWait(driver, Duration.ofSeconds(30))
+		new WebDriverWait(driver.get(), Duration.ofSeconds(30))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.id("login2")));
 
-		objLoginpage = new LoginPage(driver);
-		objHomepage = new HomePage(driver);
-		objProductpage = new ProductPage(driver);
+		objLoginpage = new LoginPage(driver.get());
+		objHomepage = new HomePage(driver.get());
+		objProductpage = new ProductPage(driver.get());
 	}
 
 	@AfterMethod
 	public void afterMethod() {
-	  driver.quit();
+	  driver.get().quit();
 	}
 	
-	public WebDriver getDriver() {
-		return driver;
+	public static WebDriver getDriver() {
+		return driver.get();
 	}
-
 }
