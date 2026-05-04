@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\dhars\Documents\SeleniumAndTesting\DemoblazeWithoutPageFactory\src\test\java\com\tests\BaseTest.java"/>
 			<item value="C:\Users\dhars\Documents\SeleniumAndTesting"/>
+			<item value="C:\Users\dhars\Documents\SeleniumAndTesting\DemoblazeWithoutPageFactory\src\test\java\com\tests\BaseTest.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,12 +46,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.expleo"/>
+			<item value="com.kiot"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="CucumberSetup"/>
+			<item value="DemoBlazeBDD"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
