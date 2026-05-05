@@ -8,23 +8,27 @@ Then the log in page opens
 
     @validCredentials @Smoke
     Scenario:
-	When the user enters username "DarshanRaj"
-	And the user enters password "dharshan123"
+	When the user enters username "<username>"
+	And the user enters password "<password>"
 	When the user click "Log in" button
 	Then the user should see "Welcome DarshanRaj"
 	
-	@invalidPassword
-	Scenario:
-	When the user enters username "Darshan"
-	And the user enters password "Darshan"
-	When the user click "Log in" button
-	Then the user should see "Wrong password" message
+	Examples:
+|username       |password       |
+|DarshanRaj     |dharshan123    |
 	
-	@invalidUsername
-	Scenario:
-	When the user enters username "Dars"
-	And the user enters password "Darshan@12"
+	
+	@LoginwithInvalidCredentials
+	Scenario Outline:
+:
+	When the user enters username "<username>"
+	And the user enters password "<password>"
 	When the user click "Log in" button
-	Then the user should see "Wrong password" message
+	Then the user should see "<errorMessage>" message
     
+    
+    Examples:
+|username       |password       |errorMessage        |
+|Darsh          |dharshan123    |user does not exist |
+|DarshanRaj     |Darshan@12     |Wrong password      |
     
