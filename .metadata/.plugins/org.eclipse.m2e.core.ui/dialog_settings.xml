@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\dhars\Downloads\QAFox\QAFox\src\test\resources\features\LoginHRM.feature"/>
 			<item value="C:\Users\dhars\Documents\SeleniumAndTesting"/>
 			<item value="C:\Users\dhars\Documents\SeleniumAndTesting\DemoblazeWithoutPageFactory\src\test\java\com\tests\BaseTest.java"/>
 		</list>
@@ -46,12 +47,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.kiot"/>
+			<item value="com.practice"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="DemoBlazeBDD"/>
+			<item value="HRMExtentReport"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

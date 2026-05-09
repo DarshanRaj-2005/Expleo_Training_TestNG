@@ -1,0 +1,12 @@
+[INFO ] 2026-05-07 14:41:08 686 [main] Hooks - Scenario started: Login with Valid Credentials
+[INFO ] 2026-05-07 14:41:14 536 [main] Hooks - Scenario passed: Login with Valid Credentials
+[INFO ] 2026-05-07 15:22:52 529 [main] Hooks - Scenario started: Login with Valid Credentials
+[INFO ] 2026-05-07 15:23:06 186 [main] Hooks - Scenario passed: Login with Valid Credentials
+[INFO ] 2026-05-07 16:29:10 624 [main] Hooks - Scenario started: Login with Valid Credentials
+[INFO ] 2026-05-07 16:29:19 618 [main] Hooks - Scenario passed: Login with Valid Credentials
+[INFO ] 2026-05-07 16:32:00 410 [main] Hooks - Scenario started: Login with Valid Credentials
+[INFO ] 2026-05-07 16:32:09 058 [main] Hooks - Scenario passed: Login with Valid Credentials
+[INFO ] 2026-05-07 16:39:52 350 [TestNG-PoolService-2] Hooks - Scenario started: Login with Invalid Credentials
+[INFO ] 2026-05-07 16:39:52 350 [TestNG-PoolService-1] Hooks - Scenario started: Login with Valid Credentials
+[ERROR] 2026-05-07 16:39:59 639 [TestNG-PoolService-2] Hooks - Scenario failed: Login with Invalid Credentials
+[INFO ] 2026-05-07 16:40:00 526 [TestNG-PoolService-1] Hooks - Scenario passed: Login with Valid Credentials
