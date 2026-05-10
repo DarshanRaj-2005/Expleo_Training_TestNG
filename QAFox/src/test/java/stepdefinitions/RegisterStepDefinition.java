@@ -11,7 +11,7 @@ import io.cucumber.java.en.When;
 
 public class RegisterStepDefinition {
 	
-	RegistrationActions ra = new RegistrationActions(Hooks.driver);
+	RegistrationActions ra = new RegistrationActions(Hooks.driver.get());
 	
 
 	@Given("the user is on register page")

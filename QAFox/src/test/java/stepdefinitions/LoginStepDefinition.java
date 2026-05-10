@@ -9,7 +9,7 @@ import io.cucumber.java.en.When;
 
 public class LoginStepDefinition {
 	
-	LoginActions la = new LoginActions(Hooks.driver);
+	LoginActions la = new LoginActions(Hooks.driver.get());
 	
 	@Given("the user is on login page")
 	public void the_user_is_on_login_page() {

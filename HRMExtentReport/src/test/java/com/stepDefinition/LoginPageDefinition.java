@@ -27,6 +27,16 @@ public class LoginPageDefinition {
 		objLogin.login();
 	}
 	
+	@When("the user enters validusername and validpassword")
+	public void the_user_enters_validusername_and_validpassword() {
+	    
+	}
+
+	@When("the user enters invalidusername and invalidpassword")
+	public void the_user_enters_invalidusername_and_invalidpassword() {
+	    
+	}
+	
 	@Then("the user should be able to login successfully and should see Dashboard")
 	public void verifyLogin() {
 		Assert.assertTrue(objHomePage.getHomePageText().contains("Dashboard"));

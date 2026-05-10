@@ -52,8 +52,8 @@ public class LoginPageActions {
 			e.printStackTrace();
 		}
 		
-		strUsername = prop.getProperty("username");
-		strPassword = prop.getProperty("password");
+		strUsername = prop.getProperty("validusername");
+		strPassword = prop.getProperty("validpassword");
 		
 		this.setUserName(strUsername);
 		this.setPassword(strPassword);

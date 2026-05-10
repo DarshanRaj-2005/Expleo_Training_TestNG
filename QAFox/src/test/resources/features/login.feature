@@ -1,4 +1,4 @@
-Feature: M_VIGNESHWARANN_5TH_MAY_QAFox_LoginFearure
+Feature:LoginFearure
 
 	Background:
 		Given the user launches the application
@@ -14,5 +14,5 @@ Feature: M_VIGNESHWARANN_5TH_MAY_QAFox_LoginFearure
 	 
 	 Examples:
 	 | email                        | password | linkText                      |
-	 | vigneshwaran.coder@gmail.com | 1234     | Edit your account information |
-	 | vigneshwaran.coder@gmail.com1 | 1234     | Edit your account information |
+	 | darshan3@gmail.com | darshan10     | Edit your account information |
+	 | darshan@gmail.com1 | darshan10     | Edit your account information |
