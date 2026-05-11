@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun May 10 23:19:22 IST 2026</td>
+<td>Started on:</td><td>Mon May 11 11:28:15 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25968 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22519 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,34 +76,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login with valid credentials", "LoginFearure"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //a[@href = &quot;https://tutorialsninja.com/demo/index.php?route=account/edit&quot;], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href = &quot;https://tutorialsninja.com/demo/index.php?route=account/edit&quot;]&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Add To Cart with valid search keys", "AddToCartFearure"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@id = &quot;content&quot;]/form/div/table/tbody/tr/td[2]/a, but no elements were found
+(tried for 10 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\dhars\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57744}, goog:processID: 19492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57744/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e4af21290b561c11aca79f77847045d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\dhars\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55922}, goog:processID: 24292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55922/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92e8032d5a562974ce431436ae92e453
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at actions.LoginActions.getLinkText(LoginActions.java:62)
-	at stepdefinitions.LoginStepDefinition.the_link_should_appear_as(LoginStepDefinition.java:36)
-	at ✽.the link should appear as &quot;Edit your account information&quot;;(file:///C:/Users/dhars/Documents/SeleniumAndTesting/QAFox/src/test/resources/features/login.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2119072652", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2119072652'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //a[@href = &quot;https://tutorialsninja.com/demo/index.php?route=account/edit&quot;], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href = &quot;https://tutorialsninja.com/demo/index.php?route=account/edit&quot;]&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
+	at actions.SearchActions.getCartProducts(SearchActions.java:57)
+	at stepdefinitions.CartStepDefinitions.the_cart_should_display_the_added_cart_products(CartStepDefinitions.java:32)
+	at ✽.the cart should display the added cart products(file:///C:/Users/dhars/Documents/SeleniumAndTesting/QAFox/src/test/resources/features/cart.feature:14)
+</pre></div><a href='#' onClick='toggleBox("stack-trace948044004", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace948044004'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@id = &quot;content&quot;]/form/div/table/tbody/tr/td[2]/a, but no elements were found
+(tried for 10 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\dhars\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57744}, goog:processID: 19492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57744/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e4af21290b561c11aca79f77847045d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\dhars\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55922}, goog:processID: 24292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55922/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92e8032d5a562974ce431436ae92e453
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at actions.LoginActions.getLinkText(LoginActions.java:62)
-	at stepdefinitions.LoginStepDefinition.the_link_should_appear_as(LoginStepDefinition.java:36)
-	at ✽.the link should appear as &quot;Edit your account information&quot;;(file:///C:/Users/dhars/Documents/SeleniumAndTesting/QAFox/src/test/resources/features/login.feature:13)
+	at actions.SearchActions.getCartProducts(SearchActions.java:57)
+	at stepdefinitions.CartStepDefinitions.the_cart_should_display_the_added_cart_products(CartStepDefinitions.java:32)
+	at ✽.the cart should display the added cart products(file:///C:/Users/dhars/Documents/SeleniumAndTesting/QAFox/src/test/resources/features/cart.feature:14)
 </pre></div></td>
-<td>22</td>
+<td>19</td>
 <td>runner.TestRunner@495b0487</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -115,19 +115,19 @@ Session ID: 5e4af21290b561c11aca79f77847045d
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify registration with valid credentials", "RegisterFearure"</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@495b0487</td></tr>
+<tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login with valid credentials", "LoginFearure"</td>
 <td></td>
-<td>10</td>
+<td>8</td>
 <td>runner.TestRunner@495b0487</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Add To Cart with valid search keys", "AddToCartFearure"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login with valid credentials", "LoginFearure"</td>
 <td></td>
-<td>11</td>
-<td>runner.TestRunner@495b0487</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify registration with valid credentials", "M_VIGNESHWARANN_5TH_MAY_QAFox_RegisterFearure"</td>
-<td></td>
-<td>10</td>
+<td>8</td>
 <td>runner.TestRunner@495b0487</td></tr>
 </table><p>
 </body>

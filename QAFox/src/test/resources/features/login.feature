@@ -15,4 +15,4 @@ Feature:LoginFearure
 	 Examples:
 	 | email                        | password | linkText                      |
 	 | darshan3@gmail.com | darshan10     | Edit your account information |
-	 | darshan@gmail.com1 | darshan10     | Edit your account information |
+	 | darshan10@gmail.com | darshan@12     | Edit your account information |
